@@ -1,0 +1,12 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  SuggestExtensions: false
+
+require: standard
+
+inherit_gem:
+  standard: config/base.yml
+
+Layout/LineLength:
+  Max: 120
+
